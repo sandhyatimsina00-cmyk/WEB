@@ -43,6 +43,7 @@ export default function Calculator() {
         <button onClick={() => handleClick("-")}>-</button>
         <button onClick={() => handleClick("*")}>*</button>
         <button onClick={() => handleClick("/")}>/</button>
+        <button onClick={() => handleClick("E")}>E</button> 
       </div>
 
       <div>
